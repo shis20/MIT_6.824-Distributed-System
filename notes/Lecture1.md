@@ -43,3 +43,11 @@
   - More than one copy data, different versions/replications! 
   - Strong Consistency : may expensive to get the most recent put data (consult all copies)
   - Weak Consistency: allow stale read (go with it!, its ok :) )
+----------------------------------------------------------------------------
+
+ - Input 1 -> Map       a, 1     b, 1
+ - Input 2 -> Map                b, 1
+ - Input 3 -> Map       a, 1              c, 1
+ -                       |        |         |
+ -                    reduce     reduce   reduce
+ -                     a, 2      b, 2       c, 1
