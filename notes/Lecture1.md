@@ -51,3 +51,29 @@
  -                       |        |         |
  -                    reduce     reduce   reduce
  -                     a, 2      b, 2       c, 1
+
+
+```
+#Map function
+# R file language V input file text
+Map(K, V)
+  split V into words
+  for each word w
+    emit(w, "1")
+
+
+#Reduce function
+Reduce(k, v)
+  emit(len(v))
+
+```
+- Shuffle from row storage transform to column storage
+
+![image](https://github.com/shis20/MIT_6.824-Distributed-System/assets/99380263/9e64a898-e179-47f9-94e6-3f41769b14b7)
+
+reference from https://slavanov.com/teaching/ds1718b/DS_Lecture11_1.pdf
+
+- Most bottleneck in MapReduce is Network throughput
+- Reduce Output stored on GFS(from Google)
+
+
