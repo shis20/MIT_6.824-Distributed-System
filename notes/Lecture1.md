@@ -1,6 +1,12 @@
 # Lecture 1 Introduction
 
  - Parallelism
- - fault tolerance
+ - fault tolerance 
  - Physical Reason
- - Security/ isolated
+ - Security/ isolated 
+
+## Challenges
+
+ - Concurrency
+ - Partial failure
+ - Performance
