@@ -10,3 +10,20 @@
  - Concurrency
  - Partial failure
  - Performance
+
+----------------------------------------------------
+
+## Infrastructure
+
+ - Storage
+ - Communication
+ - Computation (MapReduce System)
+   > abstract and hidden
+## Abstractions
+
+- Implementation
+  > RPC, Threads, concurrencies
+  >
+## Performance
+
+ - Scalabilities
