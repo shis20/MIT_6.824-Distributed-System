@@ -41,3 +41,5 @@
   - Put(key, value)
   - Get(R) -> V 
   - More than one copy data, different versions/replications! 
+  - Strong Consistency : may expensive to get the most recent put data (consult all copies)
+  - Weak Consistency: allow stale read (go with it!, its ok :) )
